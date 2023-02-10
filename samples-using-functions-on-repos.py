@@ -2,8 +2,8 @@
 # DBTITLE 1,Adiciona Caminho de Módulos Python 
 import sys
 import os
-sys.path.append('/Workspace/Repos/romeritomorais@outlook.com.br/delta-live-tables/functions/ingestion')
-sys.path.append('/Workspace/Repos/romeritomorais@outlook.com.br/delta-live-tables/functions/transformer')
+sys.path.append('/Workspace/Repos/piririparara@outlook.com.br/nome-repositorio/functions/ingestion')
+sys.path.append('/Workspace/Repos/piririparara@outlook.com.br/nome-repositorio/functions/transformer')
 
 # COMMAND ----------
 
@@ -16,7 +16,7 @@ from processing import query
 # COMMAND ----------
 
 Data = "/FileStore/tables/licitacoes_2022.csv"
-FileSQL = "/Workspace/Repos/romeritomorais@outlook.com.br/delta-live-tables/sql/agrupado-por-tipo.sql"
+FileSQL = "/Workspace/Repos/piririparara@outlook.com.br/nome-repositorio/sql/agrupado-por-tipo.sql"
 
 # COMMAND ----------
 
